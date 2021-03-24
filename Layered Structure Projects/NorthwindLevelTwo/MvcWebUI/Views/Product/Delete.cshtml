@@ -1,0 +1,26 @@
+﻿@model ProductListViewModel
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "_Layout";
+}
+
+<h2>Delete Product</h2>
+
+<form asp-controller="Product" asp-action="Delete">
+    Category Id: <input asp-for="@Model.Product.CategoryId" /><br />
+    Product Id: <input asp-for=@Model.Product.ProductId /><br />
+    Name: <input asp-for=@Model.Product.ProductName /><br />
+    Quantity Per Unit: <input asp-for=@Model.Product.QuantityPerUnit /><br />
+    Unit Price: <input asp-for=@Model.Product.UnitPrice /><br />
+    Units in Stock: <input asp-for=@Model.Product.UnitsInStock />
+    <button class="alert-danger" type="submit">Delete</button>
+</form>
+
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}
+
+
+

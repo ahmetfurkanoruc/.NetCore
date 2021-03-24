@@ -1,0 +1,24 @@
+﻿@model ProductListViewModel
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "_Layout";
+}
+
+<h1>Add Product</h1>
+
+<form asp-controller="Product" asp-action="Add">
+    Category Id: <input asp-for="Product.CategoryId" /><br />
+    Name: <input asp-for="Product.ProductName" /><br />
+    Quantity Per Unit: <input asp-for="Product.QuantityPerUnit" /><br />
+    Unit Price: <input asp-for="Product.UnitPrice" /><br />
+    Units in Stock: <input asp-for="Product.UnitsInStock" />
+    <button class="alert-success" type="submit">Add</button>
+</form>
+
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}
+

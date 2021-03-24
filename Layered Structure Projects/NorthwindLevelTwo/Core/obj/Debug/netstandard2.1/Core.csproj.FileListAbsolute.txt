@@ -1,0 +1,9 @@
+D:\C# .Net Core Web Applications\NorthwindLevelTwo\Core\obj\Debug\netstandard2.1\Core.csprojAssemblyReference.cache
+D:\C# .Net Core Web Applications\NorthwindLevelTwo\Core\obj\Debug\netstandard2.1\Core.AssemblyInfoInputs.cache
+D:\C# .Net Core Web Applications\NorthwindLevelTwo\Core\obj\Debug\netstandard2.1\Core.AssemblyInfo.cs
+D:\C# .Net Core Web Applications\NorthwindLevelTwo\Core\bin\Debug\netstandard2.1\Core.deps.json
+D:\C# .Net Core Web Applications\NorthwindLevelTwo\Core\bin\Debug\netstandard2.1\Core.dll
+D:\C# .Net Core Web Applications\NorthwindLevelTwo\Core\bin\Debug\netstandard2.1\Core.pdb
+D:\C# .Net Core Web Applications\NorthwindLevelTwo\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
+D:\C# .Net Core Web Applications\NorthwindLevelTwo\Core\obj\Debug\netstandard2.1\Core.dll
+D:\C# .Net Core Web Applications\NorthwindLevelTwo\Core\obj\Debug\netstandard2.1\Core.pdb
